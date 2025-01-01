@@ -30,13 +30,15 @@ var x = setInterval(function () {
 			"<span class='cdi'>¡¡Feliz Año Nuevo 2025!!</span>";
 		document.querySelector(".title").innerText = "";
 		additionalText.innerText = "Muchas gracias por ser parte de este 2024, por todas las enseñanzas, por tu apoyo constante y por los momentos compartidos. Espero que podamos seguir creciendo juntos y seguir compartiendo más experiencias. De antemano, gracias y que disfrutes al máximo este 2025.";
-        additionalText.style.fontFamily = "Comic Sans MS"; // Cambia la fuente dinámicamente
-        additionalText.style.color = "#fffff"; // Cambia el color dinámicamente
-        additionalText.style.fontSize = "1.4em"; // Cambia el tamaño dinámicamente
+                additionalText.style.fontFamily = "Comic Sans MS"; // Cambia la fuente dinámicamente
+                additionalText.style.color = "#fffff"; // Cambia el color dinámicamente
+                additionalText.style.fontSize = "1.4em"; // Cambia el tamaño dinámicamente
 		additionalText.style.margin = "2px"; // Cambia el tamaño dinámicamente
-		additionalText.style.width = "80%"; // Ajusta el ancho
-additionalText.style.textAlign = "center"; // Alinea el texto
-additionalText.style.padding = "20px"; // Añade espaciado interno
+		additionalText.style.width = "100%"; // Ajusta el ancho
+                additionalText.style.textAlign = "center"; // Alinea el texto
+		additionalText.style.textJustify = "center"; // Alinea el texto
+                additionalText.style.padding = "20px"; // Añade espaciado interno
+
 
 	}
 }, 1000);
